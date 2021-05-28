@@ -10,25 +10,27 @@
 Covid-19 vaccine-notifier periodically checks and sends email notifications for available slots for the next 7 days on CoWIN portal in a given area and age.
 
 
-Installing Python
+# Installing Python
+
 Python is a programming language that is powerful but easy to learn. It is free, platform-independent, and popular among scientists.
 
-Recommended Method: Anaconda
+# Recommended Method: Anaconda
+
 The Anaconda Python distribution is an easily-installable bundle of Python and many of the libraries used throughout this class. Unless you have a good reason not to, we recommend that you use Anaconda.
 
 
 # Usage
 
-Clone the repository. using ! Git Clone https://github.com/saurav935/Covid-19-vaccine-notifier.git
+- Clone the repository. using ! Git Clone https://github.com/saurav935/Covid-19-vaccine-notifier.git
 
-The tool only works with Indian IP addresses so disconnect your VPN if needed.
+- The tool only works with Indian IP addresses so disconnect your VPN if needed.
 
-Enter the command - cd covid-19 vaccine notifier/
+- Enter the command - cd covid-19 vaccine notifier/
 
-Run Anaconda Promt (Run as Administrator) From Start Menu.
+- Run Anaconda Promt (Run as Administrator) From Start Menu.
 
-Go to your Directory Eg cd C:\Users\ASUS\Desktop\pycharm\2021\Cowin\covid-19 vaccine notifier
+- Go to your Directory Eg cd C:\Users\ASUS\Desktop\pycharm\2021\Cowin\covid-19 vaccine notifier
 
-Run streamlit run app.py
+- Run streamlit run app.py
 
-You can now view your Streamlit app in your browser.
+- You can now view your Streamlit app in your browser.
