@@ -1,7 +1,6 @@
 
 import requests
 import time
-#from pygame import mixer
 from datetime import datetime, timedelta
 
 import json
@@ -14,14 +13,11 @@ print_flag = "Y"
 num_days = 2
 
 today_date = datetime.today()
-#print(today_date)
 
 
 list_format = [today_date + timedelta(days=i) for i in range(num_days)]
-#print(list_format)
 
 actual_dates = [i.strftime("%d-%m-%y") for i in list_format]
-#print(actual_dates)
 
 
 while True:
@@ -36,7 +32,6 @@ while True:
 
             result = requests.get(URL, headers = header)
 
-            #print(result.text)
 
             if result.ok:
                 response_json = result.json()
@@ -65,13 +60,10 @@ while True:
     if counter == 0:
         print("No vaccination slot is available!")
     else:
-#        mixer.init()
-#        mixer.music.load('sound/dingdong.wav')
-#        mixer.music.play()
         print("Search Completed!")
 
     dt = datetime.now() + timedelta(minutes = 3)
 
     while datetime.now() < dt:
         time.sleep(1)
-
+        
