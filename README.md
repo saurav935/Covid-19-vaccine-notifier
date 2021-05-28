@@ -27,10 +27,8 @@ The Anaconda Python distribution is an easily-installable bundle of Python and m
 
 - Enter the command - cd covid-19 vaccine notifier/
 
+- Install all the dependencies - ! pip3 install -r requirements.txt
+
 - Run Anaconda Promt (Run as Administrator) From Start Menu.
 
 - Go to your Directory Eg cd C:\Users\ASUS\Desktop\pycharm\2021\Cowin\covid-19 vaccine notifier
-
-- Run streamlit run app.py
-
-- You can now view your Streamlit app in your browser.
