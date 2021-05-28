@@ -7,7 +7,7 @@
 
 
 
-Covid-19 vaccine-notifier periodically checks and sends email notifications for available slots for the next 7 days on CoWIN portal in a given area and age.
+Covid-19 vaccine-notifier periodically checks and notifies for available slots for the next 7 days on CoWIN portal in a given area and age.
 
 
 # Installing Python
