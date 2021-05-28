@@ -7,10 +7,10 @@ import json
 
 print("Welcome to Covid-19 vaccine notifier !!")
 
-age = 52
-pin_codes = ["462003"]
+age = "required age"
+pin_codes = ["user pincode"]
 print_flag = "Y"
-num_days = 2
+num_days = "number of days"
 
 today_date = datetime.today()
 
